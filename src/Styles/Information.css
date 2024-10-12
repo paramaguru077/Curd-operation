@@ -1,0 +1,30 @@
+.dataTable{
+    margin-top: 20px;
+}
+table,tr,td,th{
+    border: 1px soild black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table thead{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+table tbody{
+    font-size: 19px;
+    font-weight: 500;
+}
+.dataTable button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: rgba(210, 105, 30, 0.842);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+}
+.dataTable button:hover{
+    border: 1px solid chocolate;
+}

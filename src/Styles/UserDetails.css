@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container h1{
+    margin: 20px;
+    color: coral;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.container h1::first-letter{
+    font-weight: bold;
+    color: rgb(240, 84, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container .form{
+    margin: 20px;
+    padding: 20px;
+    border: 0.1px solid rgba(155, 13, 13, 0.76);
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;   
+}
+.form input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 3px;
+    outline: none;
+
+}
+.form input[type="text"]{
+    padding: 10px;
+}
+.form button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(210, 105, 30, 0.815);
+    color: cornsilk;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form button:hover{
+    border: 0.5px solid chocolate;
+}
+
+
